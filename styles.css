@@ -9,42 +9,14 @@ h1 {
     text-align: center;
 }
 
-
-
-
-@media only screen and (max-width: 500px) {
-    h1 {
-        font-size: 10vw;
-    }
-}
-
-@media only screen and (min-width: 501px) {
-    h1 {
-        font-size: 7vw;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    h1 {
-        font-size: 5vw;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    h1 {
-        font-size: 4vw;
-    }
-}
-
-
 .setup {
     font-size: 23px;
-    margin: 100px 25px 50px 25px;
+    margin: 50px 25px 50px 25px;
 }
 
 .punchline {
     font-size: 25px;
-    margin: 0 25px 50px 25px;
+    margin: 0 25px 0 25px;
 }
 
 p {
@@ -59,6 +31,15 @@ p {
 }
 
 .fa-twitter {
+    background-color: #1DA1F2;
+    color: whitesmoke;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 25px;
+}
+
+.fa-twitter::before {
     padding-left: 10px;
 <<<<<<< HEAD
 =======
@@ -71,7 +52,7 @@ p {
     margin: 0 auto;
     border-radius: 5px;
     max-width: 700px;
-    height: 300px;
+    height: 250px;
     text-align: center;
     font-family: 'Jua', sans-serif;
 }
@@ -94,5 +75,24 @@ button:focus {
     padding-top: 30px;
     width: 300px;
     margin: auto;
+<<<<<<< HEAD
+>>>>>>> gh-pages
+=======
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 10vw;
+    }
+
+    .quote-box {
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    h1 {
+        font-size: 5vw;
+    }
 >>>>>>> gh-pages
 }
