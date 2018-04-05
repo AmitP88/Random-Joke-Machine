@@ -24,10 +24,7 @@ p {
     padding-top: 10%;
     padding-bottom: 5%;
     font-size: 15px;
-<<<<<<< HEAD
-=======
     color: whitesmoke;
->>>>>>> gh-pages
 }
 
 .fa-twitter {
@@ -41,8 +38,6 @@ p {
 
 .fa-twitter::before {
     padding-left: 10px;
-<<<<<<< HEAD
-=======
 }
 
 .quote-box {
@@ -75,9 +70,6 @@ button:focus {
     padding-top: 30px;
     width: 300px;
     margin: auto;
-<<<<<<< HEAD
->>>>>>> gh-pages
-=======
 }
 
 @media only screen and (max-width: 500px) {
@@ -94,5 +86,4 @@ button:focus {
     h1 {
         font-size: 5vw;
     }
->>>>>>> gh-pages
 }
