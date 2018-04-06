@@ -25,19 +25,24 @@ p {
     padding-bottom: 5%;
     font-size: 15px;
     color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: whitesmoke;
 }
 
 .fa-twitter {
     background-color: #1DA1F2;
     color: whitesmoke;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    border-radius: 25px;
+    height: 48px;
+    width: 150px;
     margin-left: 25px;
 }
 
 .fa-twitter::before {
-    padding-left: 10px;
+    padding-left: 60px;
 }
 
 .quote-box {
@@ -56,7 +61,8 @@ button {
     background-color: lightseagreen;
     color: whitesmoke;
     border-radius: 25px;
-    border-color: lightgreen;
+    border-style: solid;
+    border-color: lightseagreen;
     width: 150px;
     padding: 15px;
     font-weight: bold;
@@ -68,7 +74,7 @@ button:focus {
 
 .buttons {
     padding-top: 30px;
-    width: 300px;
+    width: 350px;
     margin: auto;
 }
 
