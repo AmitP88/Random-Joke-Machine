@@ -21,8 +21,6 @@ h1 {
 
 p {
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 5%;
     font-size: 15px;
     color: whitesmoke;
     font-family: 'Open Sans', sans-serif;
@@ -76,6 +74,25 @@ button:focus {
     padding-top: 30px;
     width: 350px;
     margin: auto;
+}
+
+.fa-github {
+    transform: rotate(-360deg);
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-github {
+    color: black;
+    margin-top: 10%;
+}
+
+.fa-github:hover {
+    color: #8A2BE2;
+}
+
+.github-profile-link {
+    color: whitesmoke;
 }
 
 @media only screen and (max-width: 500px) {
