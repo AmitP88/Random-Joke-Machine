@@ -41,6 +41,8 @@ a {
 
 .fa-twitter::before {
     padding-left: 60px;
+    position: relative;
+    top: 7px;
 }
 
 .quote-box {
