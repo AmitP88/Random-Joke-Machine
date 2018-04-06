@@ -45,6 +45,10 @@ a {
     top: 7px;
 }
 
+.fa-twitter:hover {
+    background-color: 	#4169E1;
+}
+
 .quote-box {
     background-color: whitesmoke;
     padding: 10px;
@@ -66,6 +70,11 @@ button {
     width: 150px;
     padding: 15px;
     font-weight: bold;
+}
+
+button:hover {
+    background-color: darkcyan;
+    border-color: darkcyan;
 }
 
 button:focus {
@@ -109,6 +118,12 @@ button:focus {
 
 @media only screen and (min-width: 500px) {
     h1 {
-        font-size: 5vw;
+        font-size: 7vw;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    h1 {
+        font-size: 4vw;
     }
 }
