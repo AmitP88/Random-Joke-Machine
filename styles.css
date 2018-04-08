@@ -9,43 +9,11 @@ h1 {
 }
 
 .setup {
-    font-size: 23px;
-    margin: 50px 25px 50px 25px;
+    padding: 10% 5% 10% 5%;
 }
 
 .punchline {
-    font-size: 25px;
-    margin: 0 25px 0 25px;
-}
-
-p {
-    text-align: center;
-    font-size: 15px;
-    color: whitesmoke;
-    font-family: 'Open Sans', sans-serif;
-}
-
-a {
-    color: whitesmoke;
-}
-
-.fa-twitter {
-    background-color: #1DA1F2;
-    color: whitesmoke;
-    border-radius: 25px;
-    height: 48px;
-    width: 150px;
-    margin-left: 25px;
-}
-
-.fa-twitter::before {
-    padding-left: 60px;
-    position: relative;
-    top: 7px;
-}
-
-.fa-twitter:hover {
-    background-color: 	#4169E1;
+    padding: 0 5% 0 5%;
 }
 
 .quote-box {
@@ -60,7 +28,14 @@ a {
     font-family: 'Jua', sans-serif;
 }
 
-button {
+.buttons {
+    padding-top: 30px;
+    width: 350px;
+    margin: auto;
+}
+
+.generate-button {
+    vertical-align: top;
     background-color: lightseagreen;
     color: whitesmoke;
     border-radius: 25px;
@@ -68,22 +43,34 @@ button {
     border-color: lightseagreen;
     width: 150px;
     padding: 15px;
+    padding-bottom: 16px;
     font-weight: bold;
 }
 
-button:hover {
+.generate-button:hover {
     background-color: darkcyan;
     border-color: darkcyan;
 }
 
-button:focus {
-    outline:0;
+.twitter-button:hover {
+    background-color: 	#4169E1;
+    border-color: 	#4169E1;
 }
 
-.buttons {
-    padding-top: 30px;
-    width: 350px;
-    margin: auto;
+.twitter-button {
+    vertical-align: top;
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;    
+    color: whitesmoke;
+    border-radius: 25px;
+    border-style: solid;
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;  
+}
+
+button:focus {
+    outline:0;
 }
 
 .fa-github {
@@ -104,3 +91,50 @@ button:focus {
 .github-profile-link {
     color: whitesmoke;
 }
+
+p {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .fa-twitter {
+
+    color: whitesmoke;
+    border-radius: 25px;
+    height: 48px;
+    width: 150px;
+    margin-left: 25px;
+}
+
+.fa-twitter::before {
+    padding-left: 60px;
+    position: relative;
+    top: 7px;
+}
+
+.fa-twitter:hover {
+
+} */
