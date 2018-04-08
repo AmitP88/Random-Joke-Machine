@@ -1,4 +1,3 @@
-
 body {
     background-color: #202020;
 }
@@ -104,38 +103,4 @@ button:focus {
 
 .github-profile-link {
     color: whitesmoke;
-}
-
-@media only screen and (max-width: 500px) {
-    html {
-        overflow-x: hidden;
-    }
-
-    h1 {
-        font-size: 10vw;
-    }
-
-    .quote-box {
-        height: 350px;
-    }
-
-    .buttons {
-        margin: 0 10px 50px 10px;
-    }
-
-    footer {
-        margin-bottom: 10%;
-    }
-}
-
-@media only screen and (min-width: 500px) {
-    h1 {
-        font-size: 7vw;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    h1 {
-        font-size: 4vw;
-    }
 }
