@@ -20,18 +20,15 @@ h1 {
 }
 
 .buttons {
-    padding-top: 30px;
-    margin: 0 auto;
+    padding-top: 1px;
 }
 
 .generate-button {
-    vertical-align: top;
     background-color: lightseagreen;
     color: whitesmoke;
-    border-radius: 25px;
+    border-radius: 5px;
     border-style: solid;
     border-color: lightseagreen;
-    width: 150px;
     padding: 15px;
     padding-bottom: 16px;
     font-weight: bold;
@@ -52,9 +49,8 @@ h1 {
     background-color: #1DA1F2;
     border-color: #1DA1F2;    
     color: whitesmoke;
-    border-radius: 25px;
+    border-radius: 5px;
     border-style: solid;
-    width: 150px;
     padding: 10px;
     font-weight: bold;  
 }

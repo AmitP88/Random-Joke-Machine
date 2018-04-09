@@ -9,7 +9,7 @@
 
     .quote-box {
         font-size: 5vw;
-        padding: 10% 10% 15% 10%;
+        padding: 10% 10% 10% 10%;
         width: 80%;
     }
 
@@ -23,23 +23,24 @@
     }
 
     .buttons {
-        width: 400px;
+        float: left;
+    }
+
+    button {
+        display: block;
+        width: 95vw;
+        margin-bottom: 1px;
     }
   
     footer {
-        margin-top: 20%;
+        margin-top: 60%;
         margin-bottom: 10%;
     }
 }
 
 @media only screen and (min-width: 375px){
     button {
-        margin-left: 3%;        
-    }
-
-    footer {
-        margin-top: 55%;
-        margin-bottom: 10%;
+        width: 92vw;        
     }
 }
 
@@ -50,12 +51,24 @@
 
     .quote-box {
         font-size: 4vw;
-        padding: 5% 5% 10% 5%;
+    }
+    button {
+        width: 93vw;
+    }    
+}
+
+@media only screen and (min-width: 500px) {
+    .buttons {
+        display: inline-flex;
     }
 
     button {
-        margin-left: 7%;
-    }    
+        width: 47vw;
+    }
+
+    .twitter-button {
+        margin-left: 1px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -74,6 +87,14 @@
         padding: 3% 3% 8% 3%;
     }
 
+    .buttons {
+        margin-left: 7%;
+    }
+
+    button {
+        width: 42vw;
+    }    
+
     footer {
         margin-top: 10%;
         margin-bottom: 1%;
@@ -83,6 +104,14 @@
 @media only screen and (min-width: 1024px){
     h1 {
         font-size: 5vw;
+    }
+
+    .buttons {
+        margin-left: 8%;
+    }
+
+    button {
+        width: 41.3vw;
     }
 
     .quote-box {
@@ -99,6 +128,10 @@
     .punchline {
         padding: 0 5% 0 5%;
         margin-bottom: 10%;
+    }
+
+    button {
+        width: 41vw;
     }
 }
 
