@@ -25,10 +25,6 @@
     .buttons {
         width: 400px;
     }
-
-    button {
-        margin-left: 2%;        
-    }
   
     footer {
         margin-top: 20%;
@@ -38,7 +34,7 @@
 
 @media only screen and (min-width: 375px){
     button {
-        margin-left: 5%;        
+        margin-left: 3%;        
     }
 
     footer {
