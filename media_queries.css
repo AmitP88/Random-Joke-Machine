@@ -11,22 +11,28 @@
         font-size: 6vw;
     }
 
-    footer {
-        margin-top: 30%;
-    }
-
 }
 
 @media only screen and (min-width: 375px){
-    
+    button {
+        margin-left: 4%;
+    }
 }
 
 @media only screen and (min-width: 425px){
-    
+    button {
+        margin-left: 7%;
+    }    
 }
 
 @media only screen and (min-width: 768px){
-    
+    h1 {
+        font-size: 8vw;
+    }
+
+    .quote-box {
+        font-size: 3vw;
+    }
 }
 
 @media only screen and (min-width: 1024px){

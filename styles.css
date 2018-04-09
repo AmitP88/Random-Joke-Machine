@@ -101,3 +101,8 @@ p {
 a {
     color: whitesmoke;
 }
+
+footer {
+    margin-top: 30%;
+    margin-bottom: 10%;
+}
