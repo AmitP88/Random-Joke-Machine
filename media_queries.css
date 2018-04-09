@@ -1,0 +1,38 @@
+@media only screen and (min-width: 320px){
+    body {
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+
+    .quote-box {
+        font-size: 6vw;
+    }
+
+    footer {
+        margin-top: 30%;
+    }
+
+}
+
+@media only screen and (min-width: 375px){
+    
+}
+
+@media only screen and (min-width: 425px){
+    
+}
+
+@media only screen and (min-width: 768px){
+    
+}
+
+@media only screen and (min-width: 1024px){
+    
+}
+
+@media only screen and (min-width: 1440px){
+    
+}
