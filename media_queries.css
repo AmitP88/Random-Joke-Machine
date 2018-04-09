@@ -8,37 +8,111 @@
     }
 
     .quote-box {
-        font-size: 6vw;
+        font-size: 5vw;
+        padding: 10% 10% 15% 10%;
+        width: 80%;
     }
 
+    .setup {
+        padding: 10% 5% 10% 5%;
+    }
+    
+    .punchline {
+        padding: 0 5% 0 5%;
+        margin-bottom: 10%;
+    }
+
+    .buttons {
+        width: 400px;
+    }
+
+    button {
+        margin-left: 2%;        
+    }
+  
+    footer {
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
 }
 
 @media only screen and (min-width: 375px){
     button {
-        margin-left: 4%;
+        margin-left: 5%;        
+    }
+
+    footer {
+        margin-top: 55%;
+        margin-bottom: 10%;
     }
 }
 
 @media only screen and (min-width: 425px){
+    h1 {
+        font-size: 7vw;
+    }
+
+    .quote-box {
+        font-size: 4vw;
+        padding: 5% 5% 10% 5%;
+    }
+
     button {
         margin-left: 7%;
     }    
 }
 
-@media only screen and (min-width: 768px){
-    h1 {
-        font-size: 8vw;
-    }
-
+@media only screen and (min-width: 600px) {
     .quote-box {
         font-size: 3vw;
     }
 }
 
+@media only screen and (min-width: 768px){
+    h1 {
+        font-size: 6vw;
+    }
+
+    .quote-box {
+        font-size: 2.5vw;
+        padding: 3% 3% 8% 3%;
+    }
+
+    footer {
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
+}
+
 @media only screen and (min-width: 1024px){
+    h1 {
+        font-size: 5vw;
+    }
+
+    .quote-box {
+        font-size: 2vw;
+        padding: 2% 2% 6% 2%;
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+    .setup {
+        padding: 8% 3% 8% 3%;
+    }
     
+    .punchline {
+        padding: 0 5% 0 5%;
+        margin-bottom: 10%;
+    }
 }
 
 @media only screen and (min-width: 1440px){
-    
+    h1 {
+        font-size: 4vw;
+    }
+
+    .quote-box {
+        font-size: 1.5vw;
+        padding: 0 2% 6% 2%;
+    }
 }

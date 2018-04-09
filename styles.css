@@ -8,17 +8,8 @@ h1 {
     text-align: center;
 }
 
-.setup {
-    padding: 10% 5% 10% 5%;
-}
-
-.punchline {
-    padding: 0 5% 0 5%;
-}
-
 .quote-box {
     background-color: whitesmoke;
-    padding: 10px;
     position: relative;
     margin: 0 auto;
     border-radius: 5px;
@@ -30,7 +21,6 @@ h1 {
 
 .buttons {
     padding-top: 30px;
-    width: 400px;
     margin: 0 auto;
 }
 
@@ -100,9 +90,4 @@ p {
 
 a {
     color: whitesmoke;
-}
-
-footer {
-    margin-top: 30%;
-    margin-bottom: 10%;
 }
