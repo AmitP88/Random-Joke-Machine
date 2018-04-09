@@ -30,8 +30,8 @@ h1 {
 
 .buttons {
     padding-top: 30px;
-    width: 350px;
-    margin: auto;
+    width: 400px;
+    margin: 0 auto;
 }
 
 .generate-button {
@@ -101,40 +101,3 @@ p {
 a {
     color: whitesmoke;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .fa-twitter {
-
-    color: whitesmoke;
-    border-radius: 25px;
-    height: 48px;
-    width: 150px;
-    margin-left: 25px;
-}
-
-.fa-twitter::before {
-    padding-left: 60px;
-    position: relative;
-    top: 7px;
-}
-
-.fa-twitter:hover {
-
-} */
