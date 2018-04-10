@@ -40,7 +40,7 @@
 
 @media only screen and (min-width: 375px){
     button {
-        width: 92vw;        
+        width: 95.5vw;        
     }
 }
 
@@ -53,7 +53,7 @@
         font-size: 4vw;
     }
     button {
-        width: 93vw;
+        width: 96vw;
     }    
 }
 
@@ -165,5 +165,9 @@
     .quote-box {
         font-size: 1.5vw;
         padding: 0 2% 6% 2%;
+    }
+
+    button {
+        width: 41.5vw;
     }
 }
