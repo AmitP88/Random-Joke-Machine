@@ -32,16 +32,19 @@ h1 {
     padding: 15px;
     padding-bottom: 16px;
     font-weight: bold;
+    box-shadow: 0 9px #068481;
+    cursor: pointer;
+    outline: none;
 }
 
 .generate-button:hover {
-    background-color: darkcyan;
-    border-color: darkcyan;
+    background-color: #2FAA96;
+    border-color: #2FAA96;
 }
 
-.twitter-button:hover {
-    background-color: 	#4169E1;
-    border-color: 	#4169E1;
+.generate-button:active {
+    box-shadow: 0 5px #045a59;
+    transform: translateY(4px);
 }
 
 .twitter-button {
@@ -52,11 +55,20 @@ h1 {
     border-radius: 5px;
     border-style: solid;
     padding: 10px;
-    font-weight: bold;  
+    font-weight: bold;
+    box-shadow: 0 9px #367ee9;
+    cursor: pointer;
+    outline: none;
 }
 
-button:focus {
-    outline:0;
+.twitter-button:hover {
+    background-color: rgb(26, 141, 212);
+    border-color: 	rgb(26, 141, 212);
+}
+
+.twitter-button:active {
+    box-shadow: 0 5px #295ead;
+    transform: translateY(4px);
 }
 
 .fa-github {
