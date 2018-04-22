@@ -23,18 +23,21 @@ h1 {
     padding-top: 1px;
 }
 
-.generate-button {
-    background-color: lightseagreen;
+.button {
     color: whitesmoke;
     border-radius: 5px;
     border-style: solid;
-    border-color: lightseagreen;
-    padding: 15px;
-    padding-bottom: 16px;
     font-weight: bold;
-    box-shadow: 0 9px #068481;
     cursor: pointer;
-    outline: none;
+    outline: none; 
+}
+
+.generate-button {
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0 9px #068481;
 }
 
 .generate-button:hover {
@@ -51,14 +54,8 @@ h1 {
     vertical-align: top;
     background-color: #1DA1F2;
     border-color: #1DA1F2;
-    color: whitesmoke;
-    border-radius: 5px;
-    border-style: solid;
     padding: 10px;
-    font-weight: bold;
     box-shadow: 0 9px #367ee9;
-    cursor: pointer;
-    outline: none;
 }
 
 .twitter-share-button:hover {
