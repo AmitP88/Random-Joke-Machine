@@ -41,9 +41,12 @@
         width: 92%;
     }
 
+    .api-source {
+        margin-top: 50%;
+    }
   
     footer {
-        margin-top: 60%;
+        margin-top: 30%;
         margin-bottom: 10%;
     }
 }
@@ -52,11 +55,19 @@
     .twitter-share-button {
         width: 93%;
     }
+
+    .api-source {
+        margin-top: 40%;
+    }
 }
 
 @media only screen and (min-width: 375px){
     .twitter-share-button {
         width: 93.5%;
+    }
+
+    .api-source {
+        margin-top: 40%;
     }
 }
 
@@ -83,11 +94,19 @@
     .twitter-share-button {
         margin-left: 0.5px;
     }
+
+    .api-source {
+        margin-top: 20%;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px){
     .quote-box {
         font-size: 3.3vw;
+    }
+
+    .api-source {
+        margin-top: 15%;
     }
 }
 
@@ -112,6 +131,10 @@
     footer {
         margin-top: 10%;
         margin-bottom: 1%;
+    }
+
+    .api-source {
+        margin-top: 15%;
     }
 }
 
