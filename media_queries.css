@@ -26,7 +26,7 @@
         float: left;
     }
 
-    button {
+    button, .twitter-share-button {
         display: block;
         width: 95vw;
         margin-bottom: 1px;
@@ -39,7 +39,7 @@
 }
 
 @media only screen and (min-width: 375px){
-    button {
+    button, .twitter-share-button {
         width: 95.5vw;        
     }
 }
@@ -52,7 +52,7 @@
     .quote-box {
         font-size: 4vw;
     }
-    button {
+    button, .twitter-share-button {
         width: 96vw;
     }    
 }
@@ -62,11 +62,11 @@
         display: inline-flex;
     }
 
-    button {
+    button, .twitter-share-button {
         width: 47vw;
     }
 
-    .twitter-button {
+    .twitter-share-button {
         margin-left: 1px;
     }
 }
@@ -76,13 +76,13 @@
         font-size: 3vw;
     }
 
-    button {
+    button, .twitter-share-button {
         width: 47.5vw;
     }
 }
 
 @media only screen and (min-width: 700px) {
-    button {
+    button, .twitter-share-button {
         width: 47.6vw;
     }
 }
@@ -101,7 +101,7 @@
         margin-left: 7%;
     }
 
-    button {
+    button, .twitter-share-button {
         width: 42vw;
     }    
 
@@ -112,7 +112,7 @@
 }
 
 @media only screen and (min-width: 905px){
-    button {
+    button, .twitter-share-button {
         width: 41.5vw;
     } 
 }
@@ -126,7 +126,7 @@
         margin-left: 8%;
     }
 
-    button {
+    button, .twitter-share-button {
         width: 41.3vw;
     }
 
@@ -137,7 +137,7 @@
 }
 
 @media only screen and (min-width: 1041px){
-    button {
+    button, .twitter-share-button {
         width: 40.7vw;
     }
 }
@@ -152,7 +152,7 @@
         margin-bottom: 10%;
     }
 
-    button {
+    button, .twitter-share-button {
         width: 41vw;
     }
 }
@@ -167,7 +167,7 @@
         padding: 0 2% 6% 2%;
     }
 
-    button {
+    button, .twitter-share-button {
         width: 41.5vw;
     }
 }

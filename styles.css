@@ -47,10 +47,10 @@ h1 {
     transform: translateY(4px);
 }
 
-.twitter-button {
+.twitter-share-button {
     vertical-align: top;
     background-color: #1DA1F2;
-    border-color: #1DA1F2;    
+    border-color: #1DA1F2;
     color: whitesmoke;
     border-radius: 5px;
     border-style: solid;
@@ -61,14 +61,19 @@ h1 {
     outline: none;
 }
 
-.twitter-button:hover {
+.twitter-share-button:hover {
     background-color: rgb(26, 141, 212);
     border-color: 	rgb(26, 141, 212);
 }
 
-.twitter-button:active {
+.twitter-share-button:active {
     box-shadow: 0 5px #295ead;
     transform: translateY(4px);
+}
+
+i {
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 .fa-github {
