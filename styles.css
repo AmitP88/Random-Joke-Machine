@@ -32,6 +32,10 @@ h1 {
     outline: none; 
 }
 
+.button:active {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 .generate-button {
     background-color: lightseagreen;
     border-color: lightseagreen;
