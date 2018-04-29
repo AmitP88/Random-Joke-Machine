@@ -72,6 +72,12 @@ h1 {
     transform: translateY(4px);
 }
 
+.api-source a {
+    color: rgb(0, 192, 192);
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
 i {
     margin-left: 45%;
     margin-right: 45%;
